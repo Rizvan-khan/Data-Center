@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
@@ -22,7 +23,7 @@
 	<link href="{{ asset('AdminCss/assets/css/app.css')}}" rel="stylesheet">
 	<link href="{{ asset('AdminCss/assets/css/icons.css')}}" rel="stylesheet">
 	<link href="{{ asset('AdminCss/assets/plugins/datatable/css/dataTables.bootstrap5.min.css')}}" rel="stylesheet" />
-	<title>Hosting  || Admin Pnael</title>
+	<title>Hosting || Admin Pnael</title>
 </head>
 
 <body class="bg-theme bg-theme3">
@@ -78,152 +79,23 @@
 						</li>
 					</ul>
 				</li>
-				
-				
-				
-					<li>
-					<a href="#" class="has-arrow">
-						<div class="parent-icon"><i class="lni lni-cog"></i>
-						</div>
-						<div class="menu-title">Home Setting</div>
-					</a>
-					<ul>
-						<li> <a href="home-setting"><i class="lni lni-cogs"></i>Home Setting</a>
-						</li>
-						<li> <a href="add-slider "><i class="lni lni-display-alt"></i>Add Slider</a>
-						</li>
-						<li> <a href="manage-slider"><i class="lni lni-display-alt"></i>Manage Slider</a>
-						</li>
-						<!--<li> <a href="add-testimonials"><i class="lni lni-user"></i>Add Testimonials</a>-->
-						<!--</li>-->
-						<li> <a href="manage-meta"><i class="lni lni-users"></i>Manage Meta Tags</a>
-						<!--</li>-->
-						<li> <a href="update-about"><i class="fadeIn animated bx bx-edit"></i>Update About Us</a>
-						</li>
-						<li> <a href="privacy&policy"><i class="fadeIn animated bx bx-edit"></i>Update Privacy Policy</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class="bx bxs-category"></i>
-						</div>
-						<div class="menu-title">Category</div>
-					</a>
-					<ul>
-						<li> <a href="manage-category"><i class="bx bx-right-arrow-alt"></i>Manage Main Category</a>
-						</li>
-						<li> <a href="manage-sub-category"><i class="bx bx-right-arrow-alt"></i>Manage Sub Category</a>
-						</li>
-						<li> <a href="manage-third-category"><i class="bx bx-right-arrow-alt"></i>Manage Category</a>
-						</li>
-					</ul>
-				</li>
-				
-				<li>
-					<a href="#" class="has-arrow">
-						<div class="parent-icon"><i class='lni lni-users'></i>
-						</div>
-						<div class="menu-title">Manage Products</div>
-					</a>
-					<ul>
-						<li> <a href="product"><i class="bx bx-right-arrow-alt"></i>Add Products</a>
-						</li>
-					<li> <a href="manage-product"><i class="bx bx-right-arrow-alt"></i>Manage Products</a>
-						</li>
-						<li> <a href="manage-stock"><i class="bx bx-right-arrow-alt"></i>Manage Stock</a>
-						</li>
-				
-					</ul>
-				</li>
-				
+
+
+
 				<li>
 					<a href="javascript:;" class="has-arrow">
 						<div class="parent-icon"><i class='fadeIn animated bx bx-calendar-week'></i>
 						</div>
-						<div class="menu-title">Manage Offer</div>
+						<div class="menu-title">Manage Menu & Sub</div>
 					</a>
 					<ul>
-						<li> <a href="manage-offer"><i class="bx bx-right-arrow-alt"></i>Manage Offer</a>
+						<li> <a href="add-menu"><i class="bx bx-right-arrow-alt"></i>Add Menu</a>
+						</li>
+						<li> <a href="add-submenu"><i class="lni lni-key"></i>Add Submenu</a>
 						</li>
 					</ul>
 				</li>
-				
-					<li>
-					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class='fadeIn animated bx bx-calendar-week'></i>
-						</div>
-						<div class="menu-title">Manage Clients</div>
-					</a>
-					<ul>
-						<li> <a href="manage-client"><i class="bx bx-right-arrow-alt"></i>Manage Clients</a>
-						</li>
-					</ul>
-				</li>
-				
-				<li>
-					<a href="#" class="has-arrow">
-						<div class="parent-icon"><i class="lni lni-wheelbarrow"></i>
-						</div>
-						<div class="menu-title">Manage Order</div>
-					</a>
-					<ul>
-						<li> <a href="pending-order"><i class="bx bx-right-arrow-alt"></i>Pending Orders</a>
-						</li>
-					</ul>
-					<ul>
-						<li> <a href="approved-order"><i class="bx bx-right-arrow-alt"></i>Approved Orders</a>
-						</li>
-					</ul>
-					<ul>
-						<li> <a href="order-delevered"><i class="bx bx-right-arrow-alt"></i>Delevered Orders</a>
-						</li>
-					</ul>
-					<ul>
-						<li> <a href="cancel-order"><i class="bx bx-right-arrow-alt"></i>Cancel Orders</a>
-						</li>
-					</ul>
-				</li>
-				
-				
-				
-				
-				
-				<li>
-					<a href="#" class="has-arrow">
-						<div class="parent-icon"><i class='lni lni-users'></i>
-						</div>
-						<div class="menu-title">Manage User</div>
-					</a>
-					<ul>
-					<li> <a href="user-profile"><i class="bx bx-right-arrow-alt"></i>View User Profile</a>
-					</li>
-					<li> <a href="block-user"><i class="bx bx-right-arrow-alt"></i>Block Users</a>
-					</li>
-					
-					</ul>
-				</li>
-				
-				<li>
-					<a href="javascript:;" class="has-arrow">
-						<div class="parent-icon"><i class='fadeIn animated bx bx-calendar-week'></i>
-						</div>
-						<div class="menu-title">Manage Enqueries</div>
-					</a>
-					<ul>
-						<li> <a href="manage-enquery"><i class="bx bx-right-arrow-alt"></i>Manage Enqueries</a>
-						</li>
-					</ul>
-				</li>
-				
-				<li>
-					<a href="logout.php">
-						<div class="parent-icon"><i class="lni lni-exit"></i>
-						</div>
-						<div class="menu-title">Logout</div>
-					</a>
-				</li>
-				
+
 		</div>
 		<!--end sidebar wrapper -->
 		<!--start header -->
@@ -241,10 +113,10 @@
 					<div class="top-menu ms-auto">
 						<ul class="navbar-nav align-items-center">
 							<li class="nav-item mobile-search-icon">
-								<a class="nav-link" href="#">	<i class='bx bx-search'></i>
+								<a class="nav-link" href="#"> <i class='bx bx-search'></i>
 								</a>
 							</li>
-						
+
 							<li class="nav-item dropdown dropdown-large">
 								<!--<a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <span class="alert-count">7</span>-->
 								<!--	<i class='bx bx-bell'></i>-->
@@ -263,7 +135,7 @@
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">New Customers<span class="msg-time float-end">14 Sec
-												ago</span></h6>
+															ago</span></h6>
 													<p class="msg-info">5 new user registered</p>
 												</div>
 											</div>
@@ -274,7 +146,7 @@
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">New Orders <span class="msg-time float-end">2 min
-												ago</span></h6>
+															ago</span></h6>
 													<p class="msg-info">You have recived new orders</p>
 												</div>
 											</div>
@@ -285,7 +157,7 @@
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">24 PDF File<span class="msg-time float-end">19 min
-												ago</span></h6>
+															ago</span></h6>
 													<p class="msg-info">The pdf files generated</p>
 												</div>
 											</div>
@@ -296,7 +168,7 @@
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Time Response <span class="msg-time float-end">28 min
-												ago</span></h6>
+															ago</span></h6>
 													<p class="msg-info">5.1 min avarage time response</p>
 												</div>
 											</div>
@@ -307,7 +179,7 @@
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">New Product Approved <span
-												class="msg-time float-end">2 hrs ago</span></h6>
+															class="msg-time float-end">2 hrs ago</span></h6>
 													<p class="msg-info">Your new product has approved</p>
 												</div>
 											</div>
@@ -318,7 +190,7 @@
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">New Comments <span class="msg-time float-end">4 hrs
-												ago</span></h6>
+															ago</span></h6>
 													<p class="msg-info">New customer comments recived</p>
 												</div>
 											</div>
@@ -329,7 +201,7 @@
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Your item is shipped <span class="msg-time float-end">5 hrs
-												ago</span></h6>
+															ago</span></h6>
 													<p class="msg-info">Successfully shipped your item</p>
 												</div>
 											</div>
@@ -340,7 +212,7 @@
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">New 24 authors<span class="msg-time float-end">1 day
-												ago</span></h6>
+															ago</span></h6>
 													<p class="msg-info">24 new authors joined last week</p>
 												</div>
 											</div>
@@ -351,7 +223,7 @@
 												</div>
 												<div class="flex-grow-1">
 													<h6 class="msg-name">Defense Alerts <span class="msg-time float-end">2 weeks
-												ago</span></h6>
+															ago</span></h6>
 													<p class="msg-info">45% less alerts last 4 weeks</p>
 												</div>
 											</div>
