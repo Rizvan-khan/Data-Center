@@ -93,6 +93,8 @@
 						</li>
 						<li> <a href="add-submenu"><i class="lni lni-key"></i>Add Submenu</a>
 						</li>
+						<li> <a href="home-setting"><i class="lni lni-key"></i>Setting</a>
+						</li>
 					</ul>
 				</li>
 

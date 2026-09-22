@@ -2,13 +2,14 @@
 
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Admin\MenuController;
+use App\Http\Controllers\Website\WebController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-
+Route::get('/cloud-migration',[WebController::class, 'cloudMigration']);
 
 Route::prefix('admin')->group(function () {
     Route::get('/dashboard', [AdminController::class, 'index']);
@@ -16,6 +17,13 @@ Route::prefix('admin')->group(function () {
     Route::post('/add-menu', [MenuController::class, 'createmenu'])->name('admin.add-menu');
     Route::get('add-submenu',[AdminController::class, 'Submenu']);
     Route::post('/add-submenu', [MenuController::class, 'storeSubmenu'])->name('admin.add-submenu');
+
+
+Route::get('/home-setting', [AdminController::class, 'setting'])->name('admin.home-setting.index');
+Route::post('/home-setting/update', [AdminController::class, 'update'])->name('admin.home-setting.update');
+
+
+
 });
 
 
