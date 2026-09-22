@@ -256,7 +256,9 @@ We deliver cost-effective & efficient cloud migration services in India with cap
 
 
  @include('DataCenter.feedback')
+ 
  @include('DataCenter.faqs')
+ @include('DataCenter.industry')
  @include('DataCenter.chat')
 
  
