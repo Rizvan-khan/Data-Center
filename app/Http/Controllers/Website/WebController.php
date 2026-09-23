@@ -19,5 +19,11 @@ public function showPlan($slug)
         return view('DataCenter.price');
     }
 
+       
+public function deleteplan()
+    {
+        return view('DataCenter.price');
+    }
+
 
 }
