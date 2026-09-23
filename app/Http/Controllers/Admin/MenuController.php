@@ -11,12 +11,6 @@ use Illuminate\Support\Str;
 class MenuController extends Controller
 {
 
-
-
-
-
-
-
     public function createmenu(Request $request)
     {
         $request->validate([

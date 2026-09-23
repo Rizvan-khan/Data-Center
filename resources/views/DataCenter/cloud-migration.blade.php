@@ -136,6 +136,8 @@
      </div>
  </section><!-- /About -->
 
+ @include('DataCenter.price')
+
  <section class="pt-120 pb-60 position-relative z-1">
      <!-- <img src="assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
      <div class="container">
@@ -226,9 +228,9 @@
                          </div>
                          <p class="m-0"><span class="fw-bold">Cost-Effective Services :
 
-We deliver cost-effective & efficient cloud migration services in India with capacitive planning, and risk mitigation to enhance data security during migration, which provides uninterrupted access to your data in a safe & encrypted way.</span>  </p>
+                                 We deliver cost-effective & efficient cloud migration services in India with capacitive planning, and risk mitigation to enhance data security during migration, which provides uninterrupted access to your data in a safe & encrypted way.</span>  </p>
                      </li>
-                    
+
 
                  </ul>
                  <div class="mt-6" data-sal="slide-up" data-sal-duration="1000" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
@@ -255,13 +257,14 @@ We deliver cost-effective & efficient cloud migration services in India with cap
 
 
 
+
  @include('DataCenter.feedback')
- 
+
  @include('DataCenter.faqs')
  @include('DataCenter.industry')
  @include('DataCenter.chat')
 
- 
+
 
 
  @endsection
