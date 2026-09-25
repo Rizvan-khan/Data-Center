@@ -36,21 +36,26 @@ class MenuController extends Controller
 
 
 
-    public function storeSubmenu(Request $request)
+public function storeSubmenu(Request $request)
 {
-    // Form validation
     $request->validate([
         'menuslug'    => 'required',
         'submenu'     => 'required|string|max:255',
-     
+        'description' => 'required|string',
+        'image'       => 'nullable|image|mimes:jpeg,png,jpg,gif,svg,webp|max:2048',
     ]);
 
-  
+    $imagePath = null;
+    if ($request->hasFile('image')) {
+        // Automatically generates a unique filename & stores in storage/app/public/submenus
+        $imagePath = $request->file('image')->store('submenus', 'public');
+    }
 
     Submenu::create([
         'menu-slug'    => $request->menuslug,
         'submenu'      => $request->submenu,
-       
+        'description'  => $request->description,
+        'image'        => $imagePath,
         'status'       => 1,
         'submenu-slug' => Str::slug($request->submenu),
     ]);

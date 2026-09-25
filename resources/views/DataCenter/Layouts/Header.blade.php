@@ -24,40 +24,45 @@
     <!--build:css-->
     <link rel="stylesheet" href="{{ asset('App/assets/css/main.css') }}">
     <!-- endbuild -->
-     <style>
+    <style>
         /* Form Input & Select Box Custom Styling */
-.custom-input {
-    border: 1.5px solid #000000;
-    border-radius: 16px;
-    padding: 14px 18px;
-    font-size: 15px;
-    box-shadow: none !important;
-}
+        .custom-input {
+            border: 1.5px solid #000000;
+            border-radius: 16px;
+            padding: 14px 18px;
+            font-size: 15px;
+            box-shadow: none !important;
+        }
 
-.custom-input:focus {
-    border-color: #1062fe;; /* Focus color */
-}
+        .custom-input:focus {
+            border-color: #1062fe;
+            ;
+            /* Focus color */
+        }
 
-/* Submit Button Style */
-.btn-submit-orange {
-    background-color: #1062fe;; /* Orange color from screenshot */
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-}
+        /* Submit Button Style */
+        .btn-submit-orange {
+            background-color: #1062fe;
+            ;
+            /* Orange color from screenshot */
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
 
-.btn-submit-orange:hover {
-    background-color: #1062fe;;
-}
+        .btn-submit-orange:hover {
+            background-color: #1062fe;
+            ;
+        }
 
-/* Form Wrapper Max-Width Control */
-.hero-form-wrapper {
-    max-width: 480px;
-}
+        /* Form Wrapper Max-Width Control */
+        .hero-form-wrapper {
+            max-width: 480px;
+        }
 
-.logo{
-    height:55px!important;
-}
-     </style>
+        .logo {
+            height: 55px !important;
+        }
+    </style>
 
 </head>
 
@@ -124,8 +129,11 @@
                                                             <li>
                                                                 <a href="{{ url($subMenu->{'submenu-slug'}) }}" class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2">
                                                                     <span class="contain-mega-menu__img">
-                                                                        <!-- <img src="{{ $subMenu->image ? asset('uploads/submenus/'.$subMenu->image) : asset('assets/img/icon-menu-search-domain.png') }}" -->
-                                                                            <!-- alt="{{ $subMenu->submenu }}" class="img-fluid"> -->
+                                                                       <img src="{{ !empty($subMenu->image) && Storage::disk('public')->exists($subMenu->image) 
+                                                                            ? asset('storage/' . $subMenu->image) 
+                                                                            : asset('assets/img/icon-menu-search-domain.png') }}" 
+                                                                    alt="{{ $subMenu->submenu }}" 
+                                                                    class="img-fluid">
                                                                     </span>
                                                                     <span class="flex-grow-1">
                                                                         <span class="contain-mega-menu__title d-flex align-items-center justify-content-between gap-2">
@@ -198,7 +206,7 @@
 
 
 
-                        
+
                         <li class="nav-item contain-sub-1">
                             <a class="nav-link fw-medium" href="#">
                                 PARTNERS
@@ -241,7 +249,7 @@
                                             <span
                                                 class="contain-sub-1__title d-flex align-items-center justify-content-between gap-2">
                                                 <span class="d-inline-block">
-                                                   Security Partners
+                                                    Security Partners
                                                 </span>
                                             </span>
 
@@ -265,7 +273,7 @@
                                         </span>
                                     </a>
                                 </li>
-                               
+
                             </ul>
                         </li>
 
