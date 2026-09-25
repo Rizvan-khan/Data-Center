@@ -53,6 +53,10 @@
 .hero-form-wrapper {
     max-width: 480px;
 }
+
+.logo{
+    height:55px!important;
+}
      </style>
 
 </head>
@@ -80,7 +84,7 @@
                 <!-- Dynamic Logo -->
                 <a class="navbar-brand logo" href="{{ url('/') }}">
                     @if(!empty(getwebsetting()->logo) && file_exists(public_path('upload/logo/'.getwebsetting()->logo)))
-                    <img src="{{ asset('upload/logo/'.getwebsetting()->logo) }}" alt="{{ getwebsetting()->title ?? 'logo' }}" class="logo__img">
+                    <img src="{{ asset('upload/logo/'.getwebsetting()->logo) }}" alt="{{ getwebsetting()->title ?? 'logo' }}" class="logo__img bg-white">
                     <img src="{{ asset('upload/logo/'.getwebsetting()->logo) }}" alt="{{ getwebsetting()->title ?? 'logo' }}" class="logo__img logo__sticky">
                     @else
                     <img src="{{ asset('assets/img/logo-light.png') }}" alt="logo" class="logo__img">
@@ -120,8 +124,8 @@
                                                             <li>
                                                                 <a href="{{ url($subMenu->{'submenu-slug'}) }}" class="contain-mega-menu__link text-decoration-none d-flex align-items-start gap-2">
                                                                     <span class="contain-mega-menu__img">
-                                                                        <img src="{{ $subMenu->image ? asset('uploads/submenus/'.$subMenu->image) : asset('assets/img/icon-menu-search-domain.png') }}"
-                                                                            alt="{{ $subMenu->submenu }}" class="img-fluid">
+                                                                        <!-- <img src="{{ $subMenu->image ? asset('uploads/submenus/'.$subMenu->image) : asset('assets/img/icon-menu-search-domain.png') }}" -->
+                                                                            <!-- alt="{{ $subMenu->submenu }}" class="img-fluid"> -->
                                                                     </span>
                                                                     <span class="flex-grow-1">
                                                                         <span class="contain-mega-menu__title d-flex align-items-center justify-content-between gap-2">

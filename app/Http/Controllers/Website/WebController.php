@@ -13,12 +13,19 @@ class WebController extends Controller
         return view('DataCenter.cloud-migration');
     }
 
+    public function VPSHoting()
+    {
+        return view('DataCenter.vps-hosting');
+    }
    
 public function showPlan($slug)
     {
         return view('DataCenter.price');
     }
 
+
+
+    
        
 public function deleteplan()
     {

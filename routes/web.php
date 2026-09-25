@@ -11,6 +11,7 @@ Route::get('/', function () {
 });
 
 Route::get('/cloud-migration', [WebController::class, 'cloudMigration']);
+Route::get('/vps-hosting', [WebController::class, 'VPSHoting']);
 
 
 Route::prefix('admin')->group(function () {
