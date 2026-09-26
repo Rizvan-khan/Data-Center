@@ -8,6 +8,25 @@ use Illuminate\Http\Request;
 
 class WebController extends Controller
 {
+
+
+
+// company page
+
+
+public function AboutUs()
+    {
+        return view('DataCenter.about-us');
+    }
+
+    public function ContactUs()
+    {
+        return view('DataCenter.contact-us');
+    }
+
+// sevices pages
+
+
     public function cloudMigration()
     {
         return view('DataCenter.cloud-migration');
@@ -17,20 +36,20 @@ class WebController extends Controller
     {
         return view('DataCenter.vps-hosting');
     }
-   
-public function showPlan($slug)
+
+
+
+    public function showPlan($slug)
     {
         return view('DataCenter.price');
     }
 
 
 
-    
-       
-public function deleteplan()
+
+
+    public function deleteplan()
     {
         return view('DataCenter.price');
     }
-
-
 }

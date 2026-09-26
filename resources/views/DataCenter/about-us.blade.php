@@ -1,0 +1,733 @@
+@extends('DataCenter.Layouts.app')
+
+@section('content')
+
+
+   <!-- Banner -->
+    <div class="about-banner pb-120 bg-dark">
+        <div class="container">
+            <div class="row g-4 align-items-center align-items-xxl-end">
+                <div class="col-xl-7">
+                    <div class="d-flex align-items-center gap-2">
+                        <div class="w-3 h-3 rounded-circle bg-primary flex-shrink-0"></div>
+                        <span class="d-block fw-semibold mb-0 text-primary">
+                            About Our Hosting Company
+                        </span>
+                    </div>
+                    <h1 class="mb-6 text-white">
+                        We believe there
+                        is better way to work
+                        with technology
+                    </h1>
+                    <p class="text-white max-text-60 mb-8 text-opacity-75">
+                        We specialize in providing high-bandwidth dedicated servers with unparalleled connectivity. Backed
+                        by a robust network, abundant server options, and a we’re here to cater you reliable service you can
+                        truly count on.
+                    </p>
+                    <div class="d-flex align-items-center flex-wrap gap-4">
+                        <a href="contact.html" class="btn btn-primary btn-arrow btn-lg fs-14 fw-semibold rounded">
+                            <span class="btn-arrow__text">
+                                Sign up - Free Trial
+                                <span class="btn-arrow__icon">
+                                    <i class="las la-arrow-right"></i>
+                                </span>
+                            </span>
+                        </a>
+                        <a href="server-page.html" class="btn btn-light btn-arrow btn-lg fs-14 fw-semibold rounded transition">
+                            <span class="btn-arrow__text">
+                                Explore Product
+                                <span class="btn-arrow__icon">
+                                    <i class="las la-arrow-right"></i>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="pt-80">
+                        <p class="text-white fw-bold">See how over 7,700+ Customers <span class="text-primary">Help the
+                                world work</span></p>
+                        <div class="d-flex align-items-center gap-6 flex-wrap flex-lg-nowrap">
+                            <a href="#" class="d-inline-block">
+                                <img src="{{asset ('App/assets/img/hero-logo-1.png')}}" alt="image" class="img-fluid transition opacity-50 brand-img">
+                            </a>
+                            <a href="#" class="d-inline-block">
+                                <img src="{{asset ('App/assets/img/hero-logo-2.png')}}" alt="image" class="img-fluid transition opacity-50 brand-img">
+                            </a>
+                            <a href="#" class="d-inline-block">
+                                <img src="{{asset ('App/assets/img/hero-logo-3.png')}}" alt="image" class="img-fluid transition opacity-50 brand-img">
+                            </a>
+                            <a href="#" class="d-inline-block">
+                                <img src="{{asset ('App/assets/img/hero-logo-4.png')}}" alt="image" class="img-fluid transition opacity-50 brand-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5">
+                    <div class="about-banner__img">
+                        <img src="{{asset ('App/assets/img/about-banner-img.png')}}" alt="image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Banner -->
+
+    <!-- Our Story -->
+    <div class="pt-120 pb-120">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                    <img src="{{asset ('App/assets/img/our-story-img-1.png')}}" alt="imge" class="img-fluid">
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="h5 d-inline-flex align-items-center gap-2 mb-4 text-primary" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                        <span class="d-inline-block">
+                            Our Story
+                        </span>
+                        <span class="d-inline-block w-15 h-1 bg-primary"></span>
+                    </h2>
+                    <p class="mb-6 fw-medium" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                       AFU Data Center  was founded in 2025 to meet the needs of developers who were looking for simple, affordable
+                        cloud computing solutions. Our first product, the Droplet, is an easy-to-use virtual machine that
+                        can be spun up in just minutes. Over the past decade, AFU Data Center has evolved to serve both software
+                        developers and the small-to-medium-sized businesses that are at the heart of innovation today.
+                    </p>
+                    <p class="mb-6 fw-medium" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                        Today, AFU Data Center is proud to offer solutions that cater to the needs of those just learning to code,
+                        builders getting started on their big idea, and scalers, businesses that are growing. Kubernetes,
+                        that are tailored to the needs of startups and small businesses.
+                    </p>
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-xl-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="hstack gap-2">
+                                        <span class="d-inline-block flex-shrink-0">
+                                            <img src="{{asset ('App/assets/img/award-1.png')}}" alt="image" class="img-fluid">
+                                        </span>
+                                        <h6 class="mb-0 flex-grow-1 fs-16">
+                                            Leader/High Performer Badges
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="hstack gap-2">
+                                        <span class="d-inline-block flex-shrink-0">
+                                            <img src="{{asset ('App/assets/img/award-2.png')}}" alt="image" class="img-fluid">
+                                        </span>
+                                        <h6 class="mb-0 flex-grow-1 fs-16">
+                                            Best Usability Business Badges
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease-in-out-sine">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="hstack gap-2">
+                                        <span class="d-inline-block flex-shrink-0">
+                                            <img src="{{asset ('App/assets/img/award-3.png')}}" alt="image" class="img-fluid">
+                                        </span>
+                                        <h6 class="mb-0 flex-grow-1 fs-16">
+                                            High Performer MID Market Badges
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Our Story -->
+
+    <!-- Story Timeline -->
+    <section class="story-timeline-section position-relative z-1 bg-dark pt-120 pb-60">
+        <div class="pb-60">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <h2 class="mb-4 text-center text-white" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                            Grow Up Our history
+                        </h2>
+                        <p class="mb-0 text-white text-center mx-auto max-text-60 text-opacity-75" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                            Our global data centers mean you can host precisely where you need. Choose an web hosting
+                            provider and positively impact the environment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="swiper timeline-slider-nav" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="story-timeline text-center">
+                                    <div class="story-timeline__time">
+                                        2011
+                                    </div>
+                                    <div class="story-timeline__dot"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="story-timeline text-center">
+                                    <div class="story-timeline__time">
+                                        2012
+                                    </div>
+                                    <div class="story-timeline__dot"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="story-timeline text-center">
+                                    <div class="story-timeline__time">
+                                        2014
+                                    </div>
+                                    <div class="story-timeline__dot"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="story-timeline text-center">
+                                    <div class="story-timeline__time">
+                                        2016
+                                    </div>
+                                    <div class="story-timeline__dot"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="story-timeline text-center">
+                                    <div class="story-timeline__time">
+                                        2018
+                                    </div>
+                                    <div class="story-timeline__dot"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="story-timeline text-center">
+                                    <div class="story-timeline__time">
+                                        2020
+                                    </div>
+                                    <div class="story-timeline__dot"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="story-timeline text-center">
+                                    <div class="story-timeline__time">
+                                        2022
+                                    </div>
+                                    <div class="story-timeline__dot"></div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="story-timeline text-center">
+                                    <div class="story-timeline__time">
+                                        2024
+                                    </div>
+                                    <div class="story-timeline__dot"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="timeline-slider-nav__prev">
+                            <i class="las la-angle-left"></i>
+                        </button>
+                        <button class="timeline-slider-nav__next">
+                            <i class="las la-angle-right"></i>
+                        </button>
+                    </div>
+                    <div class="swiper timeline-slider-content" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="p-4 p-md-12 p-xl-15">
+                                    <h5 class="mb-4 text-white">
+                                        VPS Hosting Launch
+                                    </h5>
+                                    <p class="mb-0 text-white max-text-60 text-opacity-75">
+                                        AFU  was founded in 2012 to meet the needs of developers who were looking for
+                                        simple, affordable cloud computing solutions. Our first product, the Droplet, is an
+                                        easy-to-use virtual machine that can be spun up in just minutes. e small-to-
+                                        businesses that are at the heart of innovation today.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-4 p-md-12 p-xl-15">
+                                    <h5 class="mb-4 text-white">
+                                        Wordpress Hosting Launch
+                                    </h5>
+                                    <p class="mb-0 text-white max-text-60 text-opacity-75">
+                                        AFU was founded in 2012 to meet the needs of developers who were looking for
+                                        simple, affordable cloud computing solutions. Our first product, the Droplet, is an
+                                        easy-to-use virtual machine that can be spun up in just minutes. e small-to-
+                                        businesses that are at the heart of innovation today.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-4 p-md-12 p-xl-15">
+                                    <h5 class="mb-4 text-white">
+                                        Shared Hosting Launch
+                                    </h5>
+                                    <p class="mb-0 text-white max-text-60 text-opacity-75">
+                                        AFU was founded in 2012 to meet the needs of developers who were looking for
+                                        simple, affordable cloud computing solutions. Our first product, the Droplet, is an
+                                        easy-to-use virtual machine that can be spun up in just minutes. e small-to-
+                                        businesses that are at the heart of innovation today.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-4 p-md-12 p-xl-15">
+                                    <h5 class="mb-4 text-white">
+                                        Linux Hosting Launch
+                                    </h5>
+                                    <p class="mb-0 text-white max-text-60 text-opacity-75">
+                                        AFU was founded in 2012 to meet the needs of developers who were looking for
+                                        simple, affordable cloud computing solutions. Our first product, the Droplet, is an
+                                        easy-to-use virtual machine that can be spun up in just minutes. e small-to-
+                                        businesses that are at the heart of innovation today.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-4 p-md-12 p-xl-15">
+                                    <h5 class="mb-4 text-white">
+                                        VPS Hosting Launch
+                                    </h5>
+                                    <p class="mb-0 text-white max-text-60 text-opacity-75">
+                                        AFU was founded in 2012 to meet the needs of developers who were looking for
+                                        simple, affordable cloud computing solutions. Our first product, the Droplet, is an
+                                        easy-to-use virtual machine that can be spun up in just minutes. e small-to-
+                                        businesses that are at the heart of innovation today.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-4 p-md-12 p-xl-15">
+                                    <h5 class="mb-4 text-white">
+                                        VPS Hosting Launch
+                                    </h5>
+                                    <p class="mb-0 text-white max-text-60 text-opacity-75">
+                                        AFU was founded in 2012 to meet the needs of developers who were looking for
+                                        simple, affordable cloud computing solutions. Our first product, the Droplet, is an
+                                        easy-to-use virtual machine that can be spun up in just minutes. e small-to-
+                                        businesses that are at the heart of innovation today.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-4 p-md-12 p-xl-15">
+                                    <h5 class="mb-4 text-white">
+                                        VPS Hosting Launch
+                                    </h5>
+                                    <p class="mb-0 text-white max-text-60 text-opacity-75">
+                                        AFU was founded in 2012 to meet the needs of developers who were looking for
+                                        simple, affordable cloud computing solutions. Our first product, the Droplet, is an
+                                        easy-to-use virtual machine that can be spun up in just minutes. e small-to-
+                                        businesses that are at the heart of innovation today.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="p-4 p-md-12 p-xl-15">
+                                    <h5 class="mb-4 text-white">
+                                        VPS Hosting Launch
+                                    </h5>
+                                    <p class="mb-0 text-white max-text-60 text-opacity-75">
+                                        AFU was founded in 2012 to meet the needs of developers who were looking for
+                                        simple, affordable cloud computing solutions. Our first product, the Droplet, is an
+                                        easy-to-use virtual machine that can be spun up in just minutes. e small-to-
+                                        businesses that are at the heart of innovation today.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-dark pt-60 pb-120">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-xl-10 col-xxl-8">
+                    <h2 class="mb-4 text-white" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                        Boosting Data Delivery efficiency
+                        for tech & Media Companies
+                    </h2>
+                </div>
+                <div class="col-12">
+                    <div class="row g-4">
+                        <div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                            <h6 class="mb-6 fw-semibold text-white">
+                                New servers in production <br>
+                                each month
+                            </h6>
+                            <span class="h1 text-white">
+                                290+
+                            </span>
+                        </div>
+                        <div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine">
+                            <h6 class="mb-6 fw-semibold text-white">
+                                Low latency network with <br>
+                                zero packet loss
+                            </h6>
+                            <span class="h1 text-white">
+                                150+
+                            </span>
+                        </div>
+                        <div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease-in-out-sine">
+                            <h6 class="mb-6 fw-semibold text-white">
+                                Data center locations on <br>
+                                6 continents
+                            </h6>
+                            <span class="h1 text-white">
+                                49+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Story Timeline -->
+
+    
+
+    @include('DataCenter.feedback')
+
+    <!-- Team -->
+    <div class="pt-60 pb-120">
+        <div class="pb-60">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-6">
+                        <div class="text-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                            <h2 class="mb-4">
+                                Meet AFU Data Center team
+                            </h2>
+                            <p class="mb-0 max-text-48 mx-auto">
+                                130+ dedicated professionals driven by a shared passion for delivering exceptional work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                    <div class="team">
+                        <img src="assets/img/team-1.jpg" alt="image" class="img-fluid w-100">
+                        <div class="team__content p-4 p-xl-8">
+                            <div class="d-flex align-items-start gap-2">
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-2">James Millard</h6>
+                                    <span class="d-block fs-14">
+                                        Web Developer
+                                    </span>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <div class="team__social">
+                                        <button type="button" class="team__btn-expand">
+                                            <i class="las la-plus"></i>
+                                        </button>
+                                        <ul class="team__social-list">
+                                            <li>
+                                                <a href="#" class="team__social-link">
+                                                    <i class="lab la-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="team__social-link">
+                                                    <i class="lab la-dribbble"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="team__social-link">
+                                                    <i class="lab la-behance"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine">
+                    <div class="team">
+                        <img src="assets/img/team-2.jpg" alt="image" class="img-fluid w-100">
+                        <div class="team__content p-4 p-xl-8">
+                            <div class="d-flex align-items-start gap-2">
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-2">Nikol Oveckova</h6>
+                                    <span class="d-block fs-14">
+                                        Web Developer
+                                    </span>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <div class="team__social">
+                                        <button type="button" class="team__btn-expand">
+                                            <i class="las la-plus"></i>
+                                        </button>
+                                        <ul class="team__social-list">
+                                            <li>
+                                                <a href="#" class="team__social-link">
+                                                    <i class="lab la-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="team__social-link">
+                                                    <i class="lab la-dribbble"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="team__social-link">
+                                                    <i class="lab la-behance"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease-in-out-sine">
+                    <div class="team">
+                        <img src="assets/img/team-3.jpg" alt="image" class="img-fluid w-100">
+                        <div class="team__content p-4 p-xl-8">
+                            <div class="d-flex align-items-start gap-2">
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-2">Ondrej Matousek</h6>
+                                    <span class="d-block fs-14">
+                                        Web Developer
+                                    </span>
+                                </div>
+                                <div class="flex-shrink-0">
+                                    <div class="team__social">
+                                        <button type="button" class="team__btn-expand">
+                                            <i class="las la-plus"></i>
+                                        </button>
+                                        <ul class="team__social-list">
+                                            <li>
+                                                <a href="#" class="team__social-link">
+                                                    <i class="lab la-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="team__social-link">
+                                                    <i class="lab la-dribbble"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="team__social-link">
+                                                    <i class="lab la-behance"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Team -->
+
+    <!-- CTA 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card rounded-3 cta-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                    <div class="card-body px-6 pt-80 pb-80">
+                        <div class="row justify-content-center">
+                            <div class="col-md-11 col-lg-8 col-xl-6">
+                                <div class="text-center">
+                                    <h3>
+                                        Quality Hosting Support 
+                                    </h3>
+                                    <p class="mb-6">
+                                        With over two decades of experience in high-quality, secure web hosting
+                                        AFU is the strategic partner for your online journey.
+                                    </p>
+                                    <a href="contact.html" class="btn btn-primary btn-arrow btn-arrow-xl btn-lg fs-14 fw-medium rounded">
+                                        <span class="d-inline-block me-1 flex-shrink-0">
+                                            <i class="las la-comments"></i>
+                                        </span>
+                                        <span class="btn-arrow__text">
+                                            Talk to a Specialist
+                                            <span class="btn-arrow__icon">
+                                                <i class="las la-arrow-right"></i>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /CTA 3 -->
+
+    <!-- Award -->
+    <section class="pt-120 pb-120">
+        <div class="pb-60">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-10 col-xl-7">
+                        <div class="text-center" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                            <h2 class="mb-4">
+                                Award-winning web hosting
+                            </h2>
+                            <p class="mb-0 max-text-52 mx-auto">
+                                Whether you run an e-commerce site or a web business you want to attract as many visitors as
+                                possible to your website.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-xl-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                    <div class="card rounded-3 h-100">
+                        <div class="card-header pt-6 border-bottom-0">
+                            <a href="#" class="d-block text-decoration-none text-center">
+                                <img src="assets/img/award-4.png" alt="image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="card-body pb-6">
+                            <h6 class="mb-2 fs-18 text-center">
+                                <a href="#" class="d-block text-decoration-none text-dark hover:text-primary">
+                                    Best Cloud Hosting-2024
+                                </a>
+                            </h6>
+                            <div class="hstack gap-1 justify-content-center align-items-center mb-4">
+                                <span class="d-block">
+                                    by
+                                </span>
+                                <a href="#" class="d-block fw-bold text-dark hover:text-primary fs-14 text-decoration-none">
+                                    HostingAdvice
+                                </a>
+                            </div>
+                            <p class="mb-0 tt-line-clamp tt-clamp-3 text-center">
+                                Hosting Advice is undoubtedly one of the top hosting authorities globally. This, among other
+                                recognition from them are very special to us.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine">
+                    <div class="card rounded-3 h-100">
+                        <div class="card-header pt-6 border-bottom-0">
+                            <a href="#" class="d-block text-decoration-none text-center">
+                                <img src="assets/img/award-5.png" alt="image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="card-body pb-6">
+                            <h6 class="mb-2 fs-18 text-center">
+                                <a href="#" class="d-block text-decoration-none text-dark hover:text-primary">
+                                    Best Cloud Hosting-2024
+                                </a>
+                            </h6>
+                            <div class="hstack gap-1 justify-content-center align-items-center mb-4">
+                                <span class="d-block">
+                                    by
+                                </span>
+                                <a href="#" class="d-block fw-bold text-dark hover:text-primary fs-14 text-decoration-none">
+                                    HostingAdvice
+                                </a>
+                            </div>
+                            <p class="mb-0 tt-line-clamp tt-clamp-3 text-center">
+                                Hosting Advice is undoubtedly one of the top hosting authorities globally. This, among other
+                                recognition from them are very special to us.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease-in-out-sine">
+                    <div class="card rounded-3 h-100">
+                        <div class="card-header pt-6 border-bottom-0">
+                            <a href="#" class="d-block text-decoration-none text-center">
+                                <img src="assets/img/award-6.png" alt="image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="card-body pb-6">
+                            <h6 class="mb-2 fs-18 text-center">
+                                <a href="#" class="d-block text-decoration-none text-dark hover:text-primary">
+                                    Best Cloud Hosting-2024
+                                </a>
+                            </h6>
+                            <div class="hstack gap-1 justify-content-center align-items-center mb-4">
+                                <span class="d-block">
+                                    by
+                                </span>
+                                <a href="#" class="d-block fw-bold text-dark hover:text-primary fs-14 text-decoration-none">
+                                    HostingAdvice
+                                </a>
+                            </div>
+                            <p class="mb-0 tt-line-clamp tt-clamp-3 text-center">
+                                Hosting Advice is undoubtedly one of the top hosting authorities globally. This, among other
+                                recognition from them are very special to us.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-3" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600" data-sal-easing="ease-in-out-sine">
+                    <div class="card rounded-3 h-100">
+                        <div class="card-header pt-6 border-bottom-0">
+                            <a href="#" class="d-block text-decoration-none text-center">
+                                <img src="assets/img/award-7.png" alt="image" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="card-body pb-6">
+                            <h6 class="mb-2 fs-18 text-center">
+                                <a href="#" class="d-block text-decoration-none text-dark hover:text-primary">
+                                    Best Cloud Hosting-2024
+                                </a>
+                            </h6>
+                            <div class="hstack gap-1 justify-content-center align-items-center mb-4">
+                                <span class="d-block">
+                                    by
+                                </span>
+                                <a href="#" class="d-block fw-bold text-dark hover:text-primary fs-14 text-decoration-none">
+                                    HostingAdvice
+                                </a>
+                            </div>
+                            <p class="mb-0 tt-line-clamp tt-clamp-3 text-center">
+                                Hosting Advice is undoubtedly one of the top hosting authorities globally. This, among other
+                                recognition from them are very special to us.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                    <div class="text-center pt-40">
+                        <a href="contact.html" class="btn btn-primary btn-arrow btn-arrow-xl btn-lg fs-14 fw-medium rounded">
+                            <span class="d-inline-block me-1 flex-shrink-0">
+                                <i class="las la-comments"></i>
+                            </span>
+                            <span class="btn-arrow__text">
+                                Talk to a Specialist
+                                <span class="btn-arrow__icon">
+                                    <i class="las la-arrow-right"></i>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- Award -->
+
+@endsection

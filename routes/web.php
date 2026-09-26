@@ -10,6 +10,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/about-us', [WebController::class,'AboutUs'])->name('about-us');
+Route::get('/contact', [WebController::class,'ContactUs'])->name('contact');
+Route::get('/colocation', function () {
+    return view('DataCenter.colocation');
+});
+Route::get('/firewall', function () {
+    return view('DataCenter.firewall');
+});
+Route::get('/it-amc', function () {
+    return view('DataCenter.it-amc');
+});
+
 Route::get('/cloud-migration', [WebController::class, 'cloudMigration']);
 Route::get('/vps-hosting', [WebController::class, 'VPSHoting']);
 
