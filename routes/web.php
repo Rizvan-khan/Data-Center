@@ -21,6 +21,15 @@ Route::get('/firewall', function () {
 Route::get('/it-amc', function () {
     return view('DataCenter.it-amc');
 });
+Route::get('/cloud-servers', function () {
+    return view('DataCenter.cloud-server');
+});
+Route::get('/private-cloud', function () {
+    return view('DataCenter.private-cloud');
+});
+Route::get('/dedicated-servers', function () {
+    return view('DataCenter.dedicated-server');
+});
 
 Route::get('/cloud-migration', [WebController::class, 'cloudMigration']);
 Route::get('/vps-hosting', [WebController::class, 'VPSHoting']);
