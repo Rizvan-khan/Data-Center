@@ -27,7 +27,7 @@ Route::get('/cloud-servers', function () {
 Route::get('/private-cloud', function () {
     return view('DataCenter.private-cloud');
 });
-Route::get('/dedicated-servers', function () {
+Route::get('/dedicated-server', function () {
     return view('DataCenter.dedicated-server');
 });
 
