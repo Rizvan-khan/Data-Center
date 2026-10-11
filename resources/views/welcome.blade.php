@@ -12,7 +12,7 @@
             <div class="col-lg-12 col-xl-12">
                 <div class="fs-14 text-white">
                     <div class="d-flex align-items-center gap-3" data-sal="fade" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease-in-out-sine">
-                        <span><img src="{{asset('App/assets//img/shape/bage-1.png')}}" alt=""></span>
+                        <span><img src="{{asset('App/assets/img/shape/bage-1.png')}}" alt=""></span>
                         <span>
                             Don't miss limited-time savings: <span class="text-warning">Savings 15%</span>
                         </span>
@@ -34,7 +34,7 @@
                             </span>
                         </span>
                     </a>
-                    <a href="server-page.html" class="btn btn-light btn-arrow btn-lg fs-14 fw-semibold rounded transition">
+                    <a href="/business-services" class="btn btn-light btn-arrow btn-lg fs-14 fw-semibold rounded transition">
                         <span class="btn-arrow__text">
                             Explore Product
                             <span class="btn-arrow__icon">
@@ -62,7 +62,7 @@
                             <i class="fa-regular fa-calendar-check"></i>
                         </div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">10 +</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">10 +</h4>
                             <p class="text-dark small mb-0 fw-medium">Years of Experience</p>
                         </div>
                     </div>
@@ -74,10 +74,10 @@
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
                         <div class="me-3 fs-3 text-secondary opacity-75">
-                            <i class="fa-solid fa-user-group"></i>
+                            <i class="las la-user-group"></i>
                         </div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">87 %</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">87 %</h4>
                             <p class="text-dark small mb-0 fw-medium">Happy Customers — Across 3 Countries</p>
                         </div>
                     </div>
@@ -89,10 +89,10 @@
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
                         <div class="me-3 fs-3 text-secondary opacity-75">
-                            <i class="fa-solid fa-server"></i>
+                            <i class="las la-server"></i>
                         </div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">99.95%</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">99.95%</h4>
                             <p class="text-dark small mb-0 fw-medium">Uptime SLA, Guaranteed</p>
                         </div>
                     </div>
@@ -104,10 +104,10 @@
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
                         <div class="me-3 fs-3 text-secondary opacity-75">
-                            <i class="fa-solid fa-leaf"></i>
+                            <i class="las la-leaf"></i>
                         </div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">2030</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">2030</h4>
                             <p class="text-dark small mb-0 fw-medium">Target Year for 100% Renewable Power</p>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                 <div class="pe-lg-3">
                     <h3 class="fw-bold display-6 mb-4">
                         AI Data Center for
-                        <span style="color: #1062fe;">modern enterprises</span>
+                        <span style="color: #123b88;">modern enterprises</span>
                     </h3>
 
                     <!-- Stats Grid -->
@@ -151,7 +151,7 @@
                         </div>
                         <div class="col-6">
                             <div class="d-flex align-items-start gap-2">
-                                <i class="fa-solid fa-boxes-stacked text-warning fs-5 mt-1"></i>
+                                <i class="las la-boxes-stacked text-warning fs-5 mt-1"></i>
                                 <div>
                                     <h5 class="fw-bold mb-0">5K+</h5>
                                     <small class="text-muted">Workloads automated</small>
@@ -192,9 +192,9 @@
 
                     <!-- CTA Button -->
                     <div class="mb-4">
-                        <a href="#" class="btn text-white rounded-pill px-4 py-2 fw-medium d-inline-flex align-items-center gap-2 shadow-sm" style="background-color: #1062fe;">
+                        <a href="/contact" class="btn text-white rounded-pill px-4 py-2 fw-medium d-inline-flex align-items-center gap-2 shadow-sm" style="background-color: #123b88;">
                             Know more about our solution
-                            <i class="fa-solid fa-circle-arrow-right fs-6"></i>
+                            <i class="las la-circle-arrow-right fs-6"></i>
                         </a>
                     </div>
 
@@ -229,7 +229,7 @@
                         <h6>WordPress Hosting</h6>
                         <div class="d-flex gap-5 flex-wrap flex-sm-nowrap mt-6">
                             <div>
-                                <img src="{{asset('App/assets//img/service-icon-1.png')}}" alt="">
+                                <img src="{{asset('App/assets/img/service-icon-1.png')}}" alt="">
                             </div>
                             <div>
                                 <p>WordPress Hosting prov environment tailored to the needs of WordPress
@@ -248,7 +248,7 @@
                         <h6>Shared Hosting</h6>
                         <div class="d-flex gap-5 flex-wrap flex-sm-nowrap mt-6">
                             <div>
-                                <img src="{{asset('App/assets//img/service-icon-2.png')}}" alt="">
+                                <img src="{{asset('App/assets/img/service-icon-2.png')}}" alt="">
                             </div>
                             <div>
                                 <p>WordPress Hosting prov environment tailored to the needs of WordPress
@@ -267,7 +267,7 @@
                         <h6>Cloud Servers</h6>
                         <div class="d-flex flex-wrap flex-sm-nowrap gap-5 mt-6">
                             <div>
-                                <img src="{{asset('App/assets//img/service-icon-3.png')}}" alt="">
+                                <img src="{{asset('App/assets/img/service-icon-3.png')}}" alt="">
                             </div>
                             <div>
                                 <p>WordPress Hosting prov environment tailored to the needs of WordPress
@@ -285,13 +285,13 @@
                     <div class="card-body px-md-7 py-md-8">
                         <div class="row align-items-center g-4">
                             <div class="col-md-4">
-                                <img src="{{asset('App/assets//img/service-img.png')}}" alt="" class="img-fluid">
+                                <img src="{{asset('App/assets/img/service-img.png')}}" alt="" class="img-fluid">
                             </div>
                             <div class="col-md-8">
                                 <h6>Free 24/7 Support </h6>
                                 <p>WordPress Hosting prov environment tailored to the needs of WordPress
                                     websitesoptimized servers</p>
-                                <a href="contact.html" class="btn btn-primary btn-arrow btn-arrow-sm fs-14 fw-medium rounded">
+                                <a href="/contact" class="btn btn-primary btn-arrow btn-arrow-sm fs-14 fw-medium rounded">
                                     <span class="btn-arrow__text">
                                         Live Chat
                                         <span class="btn-arrow__icon">
@@ -310,7 +310,7 @@
                         <h6>Virtual Private Service</h6>
                         <div class="d-flex flex-wrap flex-sm-nowrap gap-5 mt-6">
                             <div>
-                                <img src="{{asset('App/assets//img/service-icon-4.png')}}" alt="">
+                                <img src="{{asset('App/assets/img/service-icon-4.png')}}" alt="">
                             </div>
                             <div>
                                 <p>WordPress Hosting prov environment tailored to the needs of WordPress
@@ -368,7 +368,7 @@
                         </div>
                     </div>
                     <div class="monthly-price">
-                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="#">
+                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="/contact">
                             <span class="btn-arrow__text">
                                 Add to Cart
                                 <span class="btn-arrow__icon">
@@ -379,7 +379,7 @@
                         <small class="d-block fw-medium mt-2">$7.99/mo when you renew</small>
                     </div>
                     <div class="yearly-price">
-                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="#">
+                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="/contact">
                             <span class="btn-arrow__text">
                                 Add to Cart
                                 <span class="btn-arrow__icon">
@@ -455,7 +455,7 @@
                         </div>
                     </div>
                     <div class="monthly-price">
-                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="#">
+                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="/contact">
                             <span class="btn-arrow__text">
                                 Add to Cart
                                 <span class="btn-arrow__icon">
@@ -466,7 +466,7 @@
                         <small class="d-block fw-medium mt-2">$7.99/mo when you renew</small>
                     </div>
                     <div class="yearly-price">
-                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="#">
+                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="/contact">
                             <span class="btn-arrow__text">
                                 Add to Cart
                                 <span class="btn-arrow__icon">
@@ -544,7 +544,7 @@
                         </div>
                     </div>
                     <div class="monthly-price">
-                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="#">
+                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="/contact">
                             <span class="btn-arrow__text">
                                 Add to Cart
                                 <span class="btn-arrow__icon">
@@ -555,7 +555,7 @@
                         <small class="d-block fw-medium mt-2">$7.99/mo when you renew</small>
                     </div>
                     <div class="yearly-price">
-                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="#">
+                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="/contact">
                             <span class="btn-arrow__text">
                                 Add to Cart
                                 <span class="btn-arrow__icon">
@@ -630,7 +630,7 @@
                         </div>
                     </div>
                     <div class="monthly-price">
-                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="#">
+                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="/contact">
                             <span class="btn-arrow__text">
                                 Add to Cart
                                 <span class="btn-arrow__icon">
@@ -641,7 +641,7 @@
                         <small class="d-block fw-medium mt-2">$7.99/mo when you renew</small>
                     </div>
                     <div class="yearly-price">
-                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="#">
+                        <a class="btn btn-dark btn-arrow btn-lg w-100 fs-14 fw-bolder rounded mt-6" href="/contact">
                             <span class="btn-arrow__text">
                                 Add to Cart
                                 <span class="btn-arrow__icon">
@@ -741,14 +741,14 @@
                     <div class="swiper-slide">
                         <div class="bg-white p-7 shadow-sm rounded-3">
                             <div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5">
-                                <img src="{{asset('App/assets//img/feedback-brand-1.png')}}" alt="iamge" class="img-fluid">
-                                <img src="{{asset('App/assets//img/shape/feedback-quate.png')}}" alt="iamge" class="img-fluid">
+                                <img src="{{asset('App/assets/img/feedback-brand-1.png')}}" alt="iamge" class="img-fluid">
+                                <img src="{{asset('App/assets/img/shape/feedback-quate.png')}}" alt="iamge" class="img-fluid">
                             </div>
                             <h6 class="mt-5">The Most Creative Designer
                                 Highly Recommended.</h6>
                             <p class="mt-3">The best thing we love about Hostcity is it does two way sync with Google Apps. It has helped us to better organize everything on track.</p>
                             <div class="d-flex align-items-center gap-4 mt-7">
-                                <img src="{{asset('App/assets//img/user-img-1.png')}}" alt="image" class="img-fluid">
+                                <img src="{{asset('App/assets/img/user-img-1.png')}}" alt="image" class="img-fluid">
                                 <div>
                                     <h6 class="fs-16 mb-0">Lola Ross</h6>
                                     <small>Digital Marketing Director</small>
@@ -759,14 +759,14 @@
                     <div class="swiper-slide">
                         <div class="bg-white p-7 shadow-sm rounded-3">
                             <div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5">
-                                <img src="{{asset('App/assets//img/feedback-brand-2.png')}}" alt="iamge" class="img-fluid">
-                                <img src="{{asset('App/assets//img/shape/feedback-quate.png')}}" alt="iamge" class="img-fluid">
+                                <img src="{{asset('App/assets/img/feedback-brand-2.png')}}" alt="iamge" class="img-fluid">
+                                <img src="{{asset('App/assets/img/shape/feedback-quate.png')}}" alt="iamge" class="img-fluid">
                             </div>
                             <h6 class="mt-5">The Most Creative Designer
                                 Highly Recommended.</h6>
                             <p class="mt-3">The best thing we love about Hostcity is it does two way sync with Google Apps. It has helped us to better organize everything on track.</p>
                             <div class="d-flex align-items-center gap-4 mt-7">
-                                <img src="{{asset('App/assets//img/user-img-3.png')}}" alt="image" class="img-fluid">
+                                <img src="{{asset('App/assets/img/user-img-3.png')}}" alt="image" class="img-fluid">
                                 <div>
                                     <h6 class="fs-16 mb-0">Lola Ross</h6>
                                     <small>Digital Marketing Director</small>
@@ -777,14 +777,14 @@
                     <div class="swiper-slide">
                         <div class="bg-white p-7 shadow-sm rounded-3">
                             <div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5">
-                                <img src="{{asset('App/assets//img/feedback-brand-3.png')}}" alt="iamge" class="img-fluid">
-                                <img src="{{asset('App/assets//img/shape/feedback-quate.png')}}" alt="iamge" class="img-fluid">
+                                <img src="{{asset('App/assets/img/feedback-brand-3.png')}}" alt="iamge" class="img-fluid">
+                                <img src="{{asset('App/assets/img/shape/feedback-quate.png')}}" alt="iamge" class="img-fluid">
                             </div>
                             <h6 class="mt-5">The Most Creative Designer
                                 Highly Recommended.</h6>
                             <p class="mt-3">The best thing we love about Hostcity is it does two way sync with Google Apps. It has helped us to better organize everything on track.</p>
                             <div class="d-flex align-items-center gap-4 mt-7">
-                                <img src="{{asset('App/assets//img/user-img-4.png')}}" alt="image" class="img-fluid">
+                                <img src="{{asset('App/assets/img/user-img-4.png')}}" alt="image" class="img-fluid">
                                 <div>
                                     <h6 class="fs-16 mb-0">Lola Ross</h6>
                                     <small>Digital Marketing Director</small>
@@ -795,14 +795,14 @@
                     <div class="swiper-slide">
                         <div class="bg-white p-7 shadow-sm rounded-3">
                             <div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-5">
-                                <img src="{{asset('App/assets//img/feedback-brand-3.png')}}" alt="iamge" class="img-fluid">
-                                <img src="{{asset('App/assets//img/shape/feedback-quate.png')}}" alt="iamge" class="img-fluid">
+                                <img src="{{asset('App/assets/img/feedback-brand-3.png')}}" alt="iamge" class="img-fluid">
+                                <img src="{{asset('App/assets/img/shape/feedback-quate.png')}}" alt="iamge" class="img-fluid">
                             </div>
                             <h6 class="mt-5">The Most Creative Designer
                                 Highly Recommended.</h6>
                             <p class="mt-3">The best thing we love about Hostcity is it does two way sync with Google Apps. It has helped us to better organize everything on track.</p>
                             <div class="d-flex align-items-center gap-4 mt-7">
-                                <img src="{{asset('App/assets//img/user-img-5.png')}}" alt="image" class="img-fluid">
+                                <img src="{{asset('App/assets/img/user-img-5.png')}}" alt="image" class="img-fluid">
                                 <div>
                                     <h6 class="fs-16 mb-0">Lola Ross</h6>
                                     <small>Digital Marketing Director</small>
@@ -820,7 +820,6 @@
     </div>
 </section><!-- Feedback -->
 
-@include('DataCenter.faqs');
 
 
 @endsection

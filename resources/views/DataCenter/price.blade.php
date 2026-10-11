@@ -1,3 +1,5 @@
+@extends('DataCenter.Layouts.app')
+@section('content')
 <!-- Price Section -->
 @if(isset($page) && $page)
 <section class="bg-primary-subtle pt-120 pb-120">
@@ -126,3 +128,4 @@
     </div>
 </section>
 @endif
+@endsection

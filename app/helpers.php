@@ -7,11 +7,13 @@ use App\Models\WebSetting\Setting;
 if (!function_exists('getHeaderMenus')) {
     function getHeaderMenus()
     {
-        $menus = Menu::all();
-        return $menus->map(function ($menu) {
-            $menu->submenus = Submenu::where('menu-slug', $menu->slug)->get();
-            return $menu;
-        });
+        return Menu::where('status', 1)->orderBy('position')->orderBy('id')
+            ->with(['categories', 'submenus' => fn ($query) => $query->where('status', 1)
+                ->whereNotExists(fn ($hidden) => $hidden->selectRaw('1')->from('menu_categories')
+                    ->whereColumn('menu_categories.menu_slug','submenus.menu-slug')
+                    ->whereColumn('menu_categories.name','submenus.category')->where('menu_categories.is_active',false))
+                ->orderBy('position')->orderBy('id')])
+            ->get();
     }
 }
 

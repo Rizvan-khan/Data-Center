@@ -46,9 +46,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-lock"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-lock"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Isolated</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Isolated</h4>
                             <p class="text-dark small mb-0 fw-medium">Cloud Environment</p>
                         </div>
                     </div>
@@ -57,9 +57,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-server"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-server"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Dedicated</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Dedicated</h4>
                             <p class="text-dark small mb-0 fw-medium">Compute Resources</p>
                         </div>
                     </div>
@@ -68,9 +68,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-shield-alt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Secure</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Secure</h4>
                             <p class="text-dark small mb-0 fw-medium">Access Policies</p>
                         </div>
                     </div>
@@ -79,9 +79,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-expand-arrows-alt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Scalable</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Scalable</h4>
                             <p class="text-dark small mb-0 fw-medium">Infrastructure</p>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                 </ul>
             </div>
             <div class="col-lg-6">
-                <img src="{{ asset('App/assets/img/e-server-2.png') }}" alt="Dedicated private cloud servers" class="img-fluid rounded-3 shadow-sm" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                <img src="{{ asset('App/assets/img/business-services.png') }}" alt="Dedicated private cloud servers" class="img-fluid rounded-3 shadow-sm" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
             </div>
         </div>
     </div>
@@ -206,28 +206,28 @@
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">01</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">01</h4>
                     <h6 class="fs-18 mb-2">Assessment</h6>
                     <p class="mb-0">We review your workloads, users, security requirements, growth plans, and current infrastructure.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">02</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">02</h4>
                     <h6 class="fs-18 mb-2">Architecture</h6>
                     <p class="mb-0">We design compute, storage, network, firewall, backup, and access control according to your needs.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">03</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">03</h4>
                     <h6 class="fs-18 mb-2">Migration</h6>
                     <p class="mb-0">Applications, data, databases, and services are moved carefully with minimal disruption planning.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">04</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">04</h4>
                     <h6 class="fs-18 mb-2">Manage & Scale</h6>
                     <p class="mb-0">We support optimization, monitoring guidance, upgrades, and future capacity planning.</p>
                 </div>

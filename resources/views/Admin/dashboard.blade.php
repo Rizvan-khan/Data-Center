@@ -1,0 +1,4 @@
+@extends('Admin.adminlayout.app')
+@section('content')
+<div class="page-wrapper"><div class="page-content"><h1 class="h4 mb-4">Dashboard</h1><div class="row g-4">@foreach(['Menus'=>['admin.menus.index',\App\Models\Menu\Menu::count()],'Submenus'=>['admin.submenus.index',\App\Models\Menu\Submenu::count()],'FAQs'=>['admin.faqs.index',\App\Models\PageFaq::count()],'Users'=>['admin.users.index',\App\Models\User::count()]] as $label=>$stat)<div class="col-sm-6 col-lg-3"><a class="d-block border p-4 text-white" href="{{ route($stat[0]) }}"><span>{{ $label }}</span><strong class="d-block fs-2 mt-2">{{ $stat[1] }}</strong></a></div>@endforeach</div><div class="d-flex gap-3 flex-wrap mt-5"><a class="btn btn-light" href="{{ route('admin.pages.index') }}">All Pages</a><a class="btn btn-outline-light" href="{{ url('/') }}" target="_blank" rel="noopener">View Website</a></div></div></div>
+@endsection

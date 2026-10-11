@@ -22,7 +22,7 @@
                              </span>
                          </span>
                      </a>
-                     <!-- <a href="server-page.html" class="btn btn-light btn-arrow btn-lg fs-14 fw-semibold rounded transition">
+                     <!-- <a href="/business-services" class="btn btn-light btn-arrow btn-lg fs-14 fw-semibold rounded transition">
                          <span class="btn-arrow__text">
                              Explore Product
                              <span class="btn-arrow__icon">
@@ -49,7 +49,7 @@
          <div class="row g-4">
              <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
                  <div class="brand-card px-5 py-8 border rounded-3 position-relative z-1 transition overflow-hidden">
-                     <img src="assets/img/brand-card-1.png" alt="icon" class="img-fluid mb-6">
+                     <img src="App/assets/img/brand-card-1.png" alt="icon" class="img-fluid mb-6">
                      <h6 class="fs-18 mb-2">Extensive Expertise</h6>
                      <p class="mb-6">We have hands-on expertise with hundreds of cloud-native migration tools and a proven record of 100% client satisfaction.</p>
 
@@ -57,7 +57,7 @@
              </div>
              <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400" data-sal-easing="ease-in-out-sine">
                  <div class="brand-card px-5 py-8 border rounded-3 position-relative z-1 transition overflow-hidden">
-                     <img src="assets/img/brand-card-2.png" alt="icon" class="img-fluid mb-6">
+                     <img src="App/assets/img/brand-card-2.png" alt="icon" class="img-fluid mb-6">
                      <h6 class="fs-18 mb-2">Security & Compliance</h6>
                      <p class="mb-6">We pose strict compliance with regulatory and in-country data residency standards throughout the entire migration process with ease.</p>
 
@@ -65,7 +65,7 @@
              </div>
              <div class="col-xl-4 col-md-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500" data-sal-easing="ease-in-out-sine">
                  <div class="brand-card px-5 py-8 border rounded-3 position-relative z-1 transition overflow-hidden">
-                     <img src="assets/img/brand-card-3.png" alt="icon" class="img-fluid mb-6">
+                     <img src="App/assets/img/brand-card-3.png" alt="icon" class="img-fluid mb-6">
                      <h6 class="fs-18 mb-2">24x7 Technical Support</h6>
                      <p class="mb-6">We have 24/7 tech support backed by 150+ cloud-certified professionals, with more than 5 dedicated centers of excellence service offerings.</p>
 
@@ -80,7 +80,7 @@
 
  <!-- About -->
  <section class="pt-120 pb-60 position-relative z-1">
-     <!-- <img src="assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
+     <!-- <img src="App/assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
      <div class="container">
          <div class="row g-4 align-items-center">
              <div class="col-lg-6">
@@ -139,7 +139,7 @@
  @include('DataCenter.price')
 
  <section class="pt-120 pb-60 position-relative z-1">
-     <!-- <img src="assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
+     <!-- <img src="App/assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
      <div class="container">
          <div class="row g-4 align-items-center">
              <div class="col-lg-6">
@@ -203,7 +203,7 @@
  </section>
 
  <section class="pt-120 pb-60 position-relative z-1">
-     <!-- <img src="assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
+     <!-- <img src="App/assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
      <div class="container">
          <div class="row g-4 align-items-center">
 
@@ -260,7 +260,6 @@
 
  @include('DataCenter.feedback')
 
- @include('DataCenter.faqs')
  @include('DataCenter.industry')
  @include('DataCenter.chat')
 

@@ -13,7 +13,7 @@ class AdminController extends Controller
 {
     public function index()
     {
-        return view('admin.index');
+        return view('Admin.dashboard');
     }
 
     
@@ -37,7 +37,7 @@ class AdminController extends Controller
 public function setting()
     {
         $setting = Setting::first();
-        return view('admin.setting', compact('setting'));
+        return view('Admin.setting', compact('setting'));
     }
 
     public function update(Request $request)

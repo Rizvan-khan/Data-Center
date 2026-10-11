@@ -70,7 +70,7 @@
 
  <!-- About -->
  <section class="pt-120 pb-60 position-relative z-1">
-     <!-- <img src="assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
+     <!-- <img src="App/assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
      <div class="container">
          <div class="row g-4 align-items-center">
              <div class="col-lg-6">
@@ -129,7 +129,7 @@
  @include('DataCenter.price')
 
  <section class="pt-120 pb-60 position-relative z-1">
-     <!-- <img src="assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
+     <!-- <img src="App/assets/img/shape/about-shape.png" alt="image" class="img-fluid position-absolute top-0 end-0 z-n1 d-none d-xl-block"> -->
      <div class="container">
          <div class="row g-4 align-items-center">
              <div class="col-lg-6">
@@ -193,7 +193,6 @@
 
  @include('DataCenter.feedback')
 
- @include('DataCenter.faqs')
  
  
 

@@ -46,9 +46,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-microchip"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-microchip"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">100%</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">100%</h4>
                             <p class="text-dark small mb-0 fw-medium">Dedicated Resources</p>
                         </div>
                     </div>
@@ -57,9 +57,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-gauge-high"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-tachometer-alt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">High</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">High</h4>
                             <p class="text-dark small mb-0 fw-medium">Performance</p>
                         </div>
                     </div>
@@ -68,9 +68,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-shield-alt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Secure</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Secure</h4>
                             <p class="text-dark small mb-0 fw-medium">Server Setup</p>
                         </div>
                     </div>
@@ -79,9 +79,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-headset"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-headset"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">24x7</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">24x7</h4>
                             <p class="text-dark small mb-0 fw-medium">Expert Support</p>
                         </div>
                     </div>
@@ -206,28 +206,28 @@
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">01</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">01</h4>
                     <h6 class="fs-18 mb-2">Requirement Review</h6>
                     <p class="mb-0">We review your workload, users, application stack, storage, bandwidth, and uptime needs.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">02</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">02</h4>
                     <h6 class="fs-18 mb-2">Server Selection</h6>
                     <p class="mb-0">We suggest the right CPU, RAM, disk, OS, control panel, security, and support level.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">03</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">03</h4>
                     <h6 class="fs-18 mb-2">Setup & Migration</h6>
                     <p class="mb-0">Your server is configured, secured, and prepared for hosting, deployment, or migration.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">04</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">04</h4>
                     <h6 class="fs-18 mb-2">Support & Optimize</h6>
                     <p class="mb-0">We help with performance tuning, monitoring guidance, backup planning, and upgrades.</p>
                 </div>

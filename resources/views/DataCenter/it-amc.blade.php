@@ -46,9 +46,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-tools"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Regular</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Regular</h4>
                             <p class="text-dark small mb-0 fw-medium">Maintenance</p>
                         </div>
                     </div>
@@ -57,9 +57,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-headset"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-headset"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Fast</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Fast</h4>
                             <p class="text-dark small mb-0 fw-medium">Issue Response</p>
                         </div>
                     </div>
@@ -68,9 +68,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-shield-alt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Secure</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Secure</h4>
                             <p class="text-dark small mb-0 fw-medium">IT Environment</p>
                         </div>
                     </div>
@@ -79,9 +79,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-network-wired"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-network-wired"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">End-to-End</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">End-to-End</h4>
                             <p class="text-dark small mb-0 fw-medium">IT Support</p>
                         </div>
                     </div>
@@ -202,28 +202,28 @@
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">01</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">01</h4>
                     <h6 class="fs-18 mb-2">IT Audit</h6>
                     <p class="mb-0">We review your systems, users, devices, servers, network, and current support gaps.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">02</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">02</h4>
                     <h6 class="fs-18 mb-2">Support Plan</h6>
                     <p class="mb-0">We recommend the right AMC scope, visit frequency, response level, and priority rules.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">03</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">03</h4>
                     <h6 class="fs-18 mb-2">Preventive Setup</h6>
                     <p class="mb-0">We document access, critical devices, backups, warranties, and maintenance schedules.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">04</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">04</h4>
                     <h6 class="fs-18 mb-2">Ongoing Support</h6>
                     <p class="mb-0">We handle service requests, regular checks, issue tracking, and improvement suggestions.</p>
                 </div>

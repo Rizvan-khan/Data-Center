@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="col-xl-5 col-lg-4">
-                <img src="{{ asset('App/assets/img/server-about-1.png') }}" alt="Colocation data center server racks" class="img-fluid" data-sal="fade" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease-in-out-sine">
+                <img src="{{ asset('App/assets/img/business-services.png') }}" alt="Colocation data center server racks" class="img-fluid" data-sal="fade" data-sal-duration="500" data-sal-delay="200" data-sal-easing="ease-in-out-sine">
             </div>
         </div>
     </div>
@@ -46,9 +46,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-bolt"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-bolt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Redundant</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Redundant</h4>
                             <p class="text-dark small mb-0 fw-medium">Power Supply</p>
                         </div>
                     </div>
@@ -57,9 +57,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-network-wired"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-network-wired"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">High</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">High</h4>
                             <p class="text-dark small mb-0 fw-medium">Network Uptime</p>
                         </div>
                     </div>
@@ -68,9 +68,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-shield-alt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">24x7</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">24x7</h4>
                             <p class="text-dark small mb-0 fw-medium">Facility Security</p>
                         </div>
                     </div>
@@ -79,9 +79,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-temperature-low"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-thermometer-half"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Stable</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Stable</h4>
                             <p class="text-dark small mb-0 fw-medium">Cooling Design</p>
                         </div>
                     </div>
@@ -206,28 +206,28 @@
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">01</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">01</h4>
                     <h6 class="fs-18 mb-2">Requirement Review</h6>
                     <p class="mb-0">We understand your rack space, power, bandwidth, IP, and access requirements.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">02</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">02</h4>
                     <h6 class="fs-18 mb-2">Plan Finalization</h6>
                     <p class="mb-0">We map the right colocation option and support level for your workload.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">03</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">03</h4>
                     <h6 class="fs-18 mb-2">Rack & Connect</h6>
                     <p class="mb-0">Your hardware is placed, powered, cabled, and connected according to plan.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">04</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">04</h4>
                     <h6 class="fs-18 mb-2">Monitor & Support</h6>
                     <p class="mb-0">Our team supports smooth operation with monitoring and assistance when needed.</p>
                 </div>

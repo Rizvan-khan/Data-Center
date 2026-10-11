@@ -46,9 +46,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-shield-alt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Layered</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Layered</h4>
                             <p class="text-dark small mb-0 fw-medium">Traffic Protection</p>
                         </div>
                     </div>
@@ -57,9 +57,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-user-lock"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-user-lock"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Access</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Access</h4>
                             <p class="text-dark small mb-0 fw-medium">Control Rules</p>
                         </div>
                     </div>
@@ -68,9 +68,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-chart-line"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-chart-line"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">24x7</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">24x7</h4>
                             <p class="text-dark small mb-0 fw-medium">Monitoring</p>
                         </div>
                     </div>
@@ -79,9 +79,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-network-wired"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-network-wired"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Network</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Network</h4>
                             <p class="text-dark small mb-0 fw-medium">Level Filtering</p>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                 </ul>
             </div>
             <div class="col-lg-6">
-                <img src="{{ asset('App/assets/img/ddos-about-1.png') }}" alt="Firewall filtering traffic" class="img-fluid rounded-3 shadow-sm" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                <img src="{{ asset('App/assets/img/business-services.png') }}" alt="Firewall filtering traffic" class="img-fluid rounded-3 shadow-sm" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
             </div>
         </div>
     </div>
@@ -163,7 +163,7 @@
     <div class="container">
         <div class="row g-4 align-items-center">
             <div class="col-lg-6">
-                <img src="{{ asset('App/assets/img/ddos-server-1.png') }}" alt="Server firewall use cases" class="img-fluid rounded-3 shadow-sm" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                <img src="{{ asset('App/assets/img/security-1.png') }}" alt="Server firewall use cases" class="img-fluid rounded-3 shadow-sm" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
             </div>
             <div class="col-lg-6">
                 <small class="d-inline-block mb-2 fw-bold text-primary">Best For</small>
@@ -206,28 +206,28 @@
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">01</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">01</h4>
                     <h6 class="fs-18 mb-2">Audit Services</h6>
                     <p class="mb-0">We identify active services, exposed ports, access needs, and risky traffic paths.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">02</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">02</h4>
                     <h6 class="fs-18 mb-2">Plan Rules</h6>
                     <p class="mb-0">We define rules around business access, admin access, application traffic, and backups.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">03</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">03</h4>
                     <h6 class="fs-18 mb-2">Deploy Firewall</h6>
                     <p class="mb-0">Rules are applied carefully to protect systems while keeping valid services reachable.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">04</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">04</h4>
                     <h6 class="fs-18 mb-2">Monitor & Tune</h6>
                     <p class="mb-0">We review traffic behavior and adjust policies as your workload changes.</p>
                 </div>

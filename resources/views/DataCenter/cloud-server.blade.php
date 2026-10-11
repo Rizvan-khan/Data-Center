@@ -46,9 +46,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-gauge-high"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-tachometer-alt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Fast</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Fast</h4>
                             <p class="text-dark small mb-0 fw-medium">Cloud Performance</p>
                         </div>
                     </div>
@@ -57,9 +57,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-expand-arrows-alt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Easy</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Easy</h4>
                             <p class="text-dark small mb-0 fw-medium">Resource Scaling</p>
                         </div>
                     </div>
@@ -68,9 +68,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-shield-alt"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">Secure</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">Secure</h4>
                             <p class="text-dark small mb-0 fw-medium">Server Setup</p>
                         </div>
                     </div>
@@ -79,9 +79,9 @@
             <div class="col-xl-3 col-md-6">
                 <div class="card rounded-4 border-0 shadow-sm h-100">
                     <div class="card-body p-4 d-flex align-items-center">
-                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="fa-solid fa-headset"></i></div>
+                        <div class="me-3 fs-3 text-secondary opacity-75"><i class="las la-headset"></i></div>
                         <div>
-                            <h4 class="fw-bold mb-1" style="color: #1062fe;">24x7</h4>
+                            <h4 class="fw-bold mb-1" style="color: #123b88;">24x7</h4>
                             <p class="text-dark small mb-0 fw-medium">Support Guidance</p>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
     <div class="container">
         <div class="row g-4 align-items-center">
             <div class="col-lg-6">
-                <img src="{{ asset('App/assets/img/e-server-1.png') }}" alt="Cloud server benefits" class="img-fluid rounded-3 shadow-sm" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
+                <img src="{{ asset('App/assets/img/business-services.png') }}" alt="Cloud server benefits" class="img-fluid rounded-3 shadow-sm" data-sal="fade" data-sal-duration="500" data-sal-delay="300" data-sal-easing="ease-in-out-sine">
             </div>
             <div class="col-lg-6">
                 <small class="d-inline-block mb-2 fw-bold text-primary">Business Benefits</small>
@@ -206,28 +206,28 @@
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">01</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">01</h4>
                     <h6 class="fs-18 mb-2">Requirement Review</h6>
                     <p class="mb-0">We understand your application, traffic, storage, security, and budget requirements.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">02</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">02</h4>
                     <h6 class="fs-18 mb-2">Server Planning</h6>
                     <p class="mb-0">We suggest the right CPU, RAM, storage, bandwidth, operating system, and support level.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">03</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">03</h4>
                     <h6 class="fs-18 mb-2">Setup & Migration</h6>
                     <p class="mb-0">Your cloud server is configured, secured, and prepared for application deployment or migration.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="brand-card px-5 py-8 border rounded-3 h-100 bg-white">
-                    <h4 class="fw-bold mb-3" style="color: #1062fe;">04</h4>
+                    <h4 class="fw-bold mb-3" style="color: #123b88;">04</h4>
                     <h6 class="fs-18 mb-2">Support & Scaling</h6>
                     <p class="mb-0">We help with performance checks, technical guidance, and resource upgrades when needed.</p>
                 </div>
