@@ -1,6 +1,5 @@
-FROM php:8.4-apache
+FROM php:8.4-cli
 
-# Install system dependencies
 RUN apt-get update && apt-get install -y \
     git \
     curl \
@@ -11,32 +10,16 @@ RUN apt-get update && apt-get install -y \
     unzip \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Install PHP extensions
 RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
 
-# Fix Apache MPM conflict error (AH00534)
-RUN a2dismod mpm_event mpm_worker || true
-RUN a2enmod mpm_prefork
-
-# Get latest Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Set working directory
 WORKDIR /var/www/html
-
-# Copy existing application directory contents
 COPY . /var/www/html
 
-# Change Apache document root to public folder
-ENV APACHE_DOCUMENT_ROOT /var/www/html/public
-RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
-RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
-
-# Enable Apache Rewrite Module
-RUN a2enmod rewrite
-
-# Install PHP dependencies via Composer
 RUN composer install --no-dev --optimize-autoloader
 
-# Set proper permissions for storage and cache
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+
+EXPOSE 8080
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8080"]
