@@ -1,8 +1,0 @@
-[providers]
-providers = ["php"]
-
-[phases.build]
-cmds = ["composer install --no-dev --optimize-autoloader"]
-
-[start]
-cmd = "vendor/bin/heroku-php-apache2 public/"
